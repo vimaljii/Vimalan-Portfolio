@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vimalan Portfolio</title>
+        
+ <style>
+    html{
+        font-family:'Times New Roman', Times, serif;
+        font-display: block;
+    }
+
+    img{
+        border-radius: 10px;
+         border:2px solid black;
+         align-items: center;
+      
+         
+    }
+    #profile{
+        display: block;
+        margin: 0 auto;
+    }
+   
+
+    .name{
+        text-align: center;
+        font-weight: bolder;
+        font-size: large;
+        background-color: rgb(2, 2, 99);
+        color: white;
+        border:  solid white;
+
+    }    
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px 0;
+}
+
+    
+
+    .nav a{
+        text-decoration:none;
+        color: white;
+        transition: color 0.3s;
+        }
+    .nav a:hover{
+       
+        color: red;
+    }
+    #summary{
+        display: block;
+        font-size: large;
+      
+        } 
+        #skill{
+            width: 80%;
+            margin: 40px auto;
+        }
+        #ski{
+            margin-left: 2px;
+            display: inline;
+        }
+        
+    .skills-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+    .skill-box{
+        display: flex;
+        background-color: rgb(222, 58, 170);
+        color: white;
+        padding: 12px ;
+        border: 3px solid black;
+        border-radius: 10px;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        flex: 0 1 150px;
+        box-shadow: 2px 2px 5px;
+        transition: transform 0.3s, background-color 0.3s;
+    }
+
+    #about p{
+        font-size: large;
+    }
+
+    #contact p{
+        text-align: center;
+        font-size: large;
+       
+    }
+    #contact a {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+    #contact{
+         background-color: rgb(2, 2, 99);
+        color: white;
+        border:solid white;
+        text-align: center;
+    }
+
+    footer{
+        height: 50px;
+        background-color: rgba(20, 18, 18, 0.767);
+        color: white;
+        text-align: center;
+        padding-top:5px;
+    }
+
+@media (max-width: 768px) {
+    #summary {
+        display: block !important;
+        text-align: center;
+    }
+    #summary img {
+        margin: 20px auto;
+        width: 80%; 
+        height: auto;
+    }
+
+    
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-box {
+        flex: 0 1 80%; 
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    #contact p, #about p, #summary p {
+        font-size: 1rem;
+    }
+    #skill {
+        width: 95%;
+    }
+    #profile {
+        width: 100%;
+    }
+}
+
+
+    </style>
+    </head>
+    <body>
+       <div class="name">
+            <h1>VIMALAN S</h1>
+             <h2>FULL STACK DEVELOPER</h2>
+              <nav class="nav">
+                <a href="#home" >Home</a>
+                <a href="#summary">Summary</a>
+                <a href="#skill">Skills</a>
+                <a href="./intern.html">Internship</a>
+                <a href="#about">About Me</a>
+                <a href="#contact">Contact</a>            
+            </nav>
+       </div> 
+
+       
+    </div>
+    <br>
+       <img id="profile" src="./images/1704376191890.jpg" height="400px">
+
+    <div id="summary">
+        <h2>Summary</h2>
+        <p>I am a Full Stack Developer skilled in building responsive websites and interactive web applications. I work with HTML, CSS, JavaScript, React, Bootstrap, Python, and SQL. I enjoy creating clean UI designs, solving technical problems, and developing user-friendly digital solutions.</p>
+    </div>
+<h2>Skills</h2>
+    <section id="skill">
+  
+  
+    <div class="skills-container">
+        <div class="skill-box">HTML5</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">React.js</div>
+        <div class="skill-box">Bootstrap</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">SQL</div>
+        <div class="skill-box">Web Design</div>
+        <div class="skill-box">Front-End</div>
+        <div class="skill-box">Django</div>
+        <div class="skill-box">Problem Solving</div>
+        <div class="skill-box">Team Work</div>
+    </div>
+
+    </section>
+   
+    <div id="about">
+    <h2>About Me</h2>
+    <p>I completed my Bachelor’s Degree in Computer Science at Sethupathy Government Arts College, Ramanathapuram. I am passionate about building my career in the IT field, and my short-term goal is to secure a position in a reputable IT company where I can apply my skills and continue learning.My long-term goal is to become a successful businessman in my hometown and contribute to my community, while also engaging in agriculture, which I strongly value and wish to develop in the future.</p>
+    </div>
+    <div id="contact">
+    <h2>Contact Me</h2>
+    <p>✉ <a href="mailto:vimalan10169@gmail.com">vimalan10169@gmail.com</a></p>
+    <p>📞 +91 97919 80514</p>
+    <p>Ramanathapuram</p>
+    <a href="https://wa.me/919791980514"><img src="./images/wp.png" height="30px"></a>
+    <a href="https://www.instagram.com/_tnteddy/"><img src="./images/insta.png" height="30px"></a>
+    <a href="https://www.facebook.com/share/17imnpk3vk/"><img src="./images/fb.png" height="30px"></a>
+    <a href="https://github.com/vimaljii/DB2440C2E5B57BB8160438803EAD587E/projects?query=is%3Aopen"><img src="./images/github.png" height="30px" width="35px"></a>
+    <a href="https://www.linkedin.com/in/vimalan-s-66974029a/">
+        <img src="./images/linkedin.png" height="30px">
+     </a>
+</div>
+    </div>
+<footer>
+<p><b>© 2025 Vimal Jiii. All Rights Reserved.</b></p>
+
+</footer>
+
+
+</body>
+</html>
